@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "CommonJS",
+		"strict": true,
+		"declaration": true,
+		"moduleResolution": "node",
+		"noImplicitAny": false,
+		"sourceMap": true,
+		"inlineSources": true
+	},
+	"files": [
+		"index.ts"
+	]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@stein197/roman",
+  "version": "1.0.0",
+  "description": "Roman numbers",
+  "main": "index.js",
+  "scripts": {
+    "clean": "del .\\*.js .\\*.d.ts .\\*.map 2>nul",
+    "build": "tsc",
+    "test": "ts-mocha test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stein197/js-roman.git"
+  },
+  "keywords": [
+    "roman"
+  ],
+  "author": "Nail' Gafarov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stein197/js-roman/issues"
+  },
+  "homepage": "https://github.com/stein197/js-roman#readme",
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.15.3",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.0.2"
+  }
+}
